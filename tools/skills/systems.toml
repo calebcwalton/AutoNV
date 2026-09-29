@@ -1,0 +1,6 @@
+# Explicit startup routing; add future system skills here.
+[generic]
+skills = ["autonv-workspace", "quantum-research"]
+
+[nv]
+skills = ["autonv-workspace", "quantum-research", "nv-modeling"]

@@ -1,0 +1,27 @@
+# Local research, operator state, and optional paper PDFs.
+/workspace/
+/private/
+/tools/papers/
+
+# One shared Python environment lives at the repository root.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.matplotlib/
+
+# Generated Julia environments and runtime artifacts.
+/.autonv/
+/.julia/
+/tools/environments/
+*.pidfile
+
+# Machine-local configuration and credentials.
+.env
+.env.*
+!.env.example
+/.codex/
+/.agents/
+/.aws/
+.DS_Store

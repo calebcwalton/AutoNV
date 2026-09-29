@@ -1,0 +1,4 @@
+#!/bin/sh
+# Resolve the checkout location, so this command works from any directory.
+AUTONV_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+exec julia --startup-file=no --threads=auto --project="${AUTONV_PROJECT:-$AUTONV_ROOT}" "$AUTONV_ROOT/scripts/autonv.jl" "$@"
